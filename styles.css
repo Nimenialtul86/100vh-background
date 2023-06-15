@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+:root {
+    --text-color: rgb(232, 233, 235);
+    --h1-size: 5rem;
+    --p--size: 2.5rem;
+}
+
+.section1 {
+    background-image: url(Assets/Travel.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.section1 h1 {
+    text-align: center;
+    margin: auto;
+    color: rgb(46, 39, 39);
+    font-size: 6rem;
+}
+
+.section2 {
+    background-image: url(Assets/New\ York.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h1 {
+    font-size: var(--h1-size);
+}
+.section2 p {
+    font-size: var(--p--size);
+}
+
+.section2 > .content {
+    width: min(90%, 60%);
+    margin: auto;
+    overflow-x: auto;
+    color: var(--text-color);
+    background-color: #33333380;
+    text-align: center;
+}
+
+.section3 {
+    background-image: url(Assets/Paris.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+     display: flex;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    font-size: var(--h1-size);
+}
+.section3 p {
+    font-size: var(--p--size);
+}
+
+.section3 > .content {
+    width: min(90%, 60%);
+    margin: auto;
+    color: var(--text-color);
+    background-color: #3333333a;
+    text-align: center;
+}
+.section4 {
+    background-image: url(Assets/Tokyo.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+     display: flex;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    font-size: var(--h1-size);
+}
+.section4 p {
+    font-size: var(--p--size);
+}
+
+.section4 > .content {
+    width: min(90%, 60%);
+    margin: auto;
+    color: var(--text-color);
+    background-color: #33333363;
+    text-align: center;
+}
